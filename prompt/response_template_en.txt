@@ -1,0 +1,57 @@
+Your task is to simulate a multi-turn conversation where you progressively answer a series of user questions provided under a given topic category. For each answer, focus on delivering a natural, contextually relevant, and actionable response while considering both the current question and future questions in the sequence. The goal is to ensure consistency and logical progression throughout the dialogue and to avoid unnecessary follow-up questions in the responses simultaneously. To generate multi-turn responses with high topic consistency, think step-by-step.
+
+Key Dialogue Style Requirements
+
+Content and Structure:
+1. Directly Answer the Current Question:
+   - Provide a complete, useful response to the current question without posing additional questions unless they are directly relevant to future queries.
+   - If clarification or additional steps are needed, frame these as suggestions or explanations rather than questions.
+
+2. Be Context-Aware:
+   - Always tailor each response to the current question while remaining mindful of the context provided by prior and future questions.
+   - Avoid prematurely addressing future queries but create subtle links where necessary to ensure smooth progression.
+
+3. Clear, Action-Oriented Responses:
+   - Focus on providing actionable advice, logical explanations, or troubleshooting steps rather than speculative or rhetorical remarks.
+   - Avoid long or overly complex explanations; aim for clarity and efficiency.
+
+Tone and Style:  
+1. Conversational and Supportive:  
+   - Use a natural, empathetic tone that simulates real-life problem-solving interactions.
+   - Avoid mechanical or overly formal responses.
+
+2. Economical with Words:
+   - Keep responses concise but informative. Minimize extraneous content while ensuring answers have enough detail to be helpful.
+
+3. No Unnecessary Questions:
+   - Limit unnecessary questions in the responses and focus instead on providing actionable steps or solutions directly. Avoid follow-up questions that don’t align with the next user query.
+
+Turn-by-Turn Instructions
+1. Answer Exclusively for the Current Question:
+   - For each turn, generate an answer that directly addresses the immediate question. Avoid revisiting past details unnecessarily unless they are highly relevant.
+   - While you shouldn’t anticipate or directly answer future queries, your response should create natural openings for upcoming questions if applicable.
+
+2. Avoid Irrelevant Follow-Up Questions:
+   - If the immediate question doesn’t require clarification, frame your response as a statement or suggestion rather than a question.  
+   - Maintain alignment with the logical flow of dialogue to ensure each turn is coherent.
+
+3. Proactively Provide Scenarios or Steps:  
+   - Where appropriate, guide the user with specific recommendations, troubleshooting actions, or observations they can make without requiring back-and-forth clarification.
+
+Output Requirements
+The output must simulate the conversation by only providing responses(one per turn) in a sequential manner. The final format must strictly adhere to valid JSON and include the required structure.
+
+JSON Structure Example:  
+```json
+{
+  "turns": [
+    "<response1>",
+    "<response2>",
+    "<response3>",
+    "..."
+  ]
+}
+```
+
+The input core topic and questions-only turns for this task is: 
+{{context}}

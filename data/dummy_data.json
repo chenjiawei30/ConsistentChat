@@ -1,0 +1,173 @@
+{
+    "categories": {
+        "Problem-solving Interaction": {
+            "scenarios": [
+                "Technical Support",
+                "Home Repair",
+                "Travel Planning",
+                "Software Troubleshooting",
+                "Car Maintenance",
+                "Gardening Tips",
+                "Cooking Recipes",
+                "Fitness Planning",
+                "Academic Advice",
+                "Financial Planning"
+            ],
+            "flow_type": "problem_diagnosis_to_solution"
+        },
+        "Educational Interaction": {
+            "scenarios": [
+                "Language Learning",
+                "Science Education",
+                "Music Lessons",
+                "Math Tutoring",
+                "History Learning",
+                "Art Theory",
+                "Programming Tutorial",
+                "Geography Education",
+                "Environmental Science",
+                "Public Speaking Training"
+            ],
+            "flow_type": "theory_to_scene"
+        },
+        "Health Consultation": {
+            "scenarios": [
+                "Dietary Advice",
+                "Symptom Analysis",
+                "Medication Consultation",
+                "Mental Health Support",
+                "Exercise Recommendations",
+                "Elderly Health",
+                "Sleep Advice",
+                "Chronic Disease Management",
+                "Water Intake Advice",
+                "Post-surgery Recovery"
+            ],
+            "flow_type": "user_needs_to_solution"
+        },
+        "Exploratory Interaction": {
+            "scenarios": [
+                "Sci-fi Exploration",
+                "Deep Sea Research",
+                "Historical Analysis",
+                "Space Travel",
+                "Artificial Intelligence",
+                "Time Travel Theory",
+                "Future Cities",
+                "Ancient Civilizations",
+                "Quantum Physics",
+                "Alien Life"
+            ],
+            "flow_type": "concept_to_cross_domain"
+        },
+        "Entertainment Interaction": {
+            "scenarios": [
+                "Word Games",
+                "Virtual Role Playing",
+                "Storytelling",
+                "Quiz Competition",
+                "Jokes and Riddles",
+                "Movie Recommendations",
+                "Music Playlists",
+                "Character Creation",
+                "Virtual Escape Room",
+                "Improv Performance"
+            ],
+            "flow_type": "single_to_multiple_views"
+        },
+        "Emotional Support": {
+            "scenarios": [
+                "Loneliness Venting",
+                "Motivational Encouragement",
+                "Companionship Mode",
+                "Anxiety Alleviation",
+                "Stress Management",
+                "Self-encouragement",
+                "Mood Comfort",
+                "Emotional Expression",
+                "Self-reflection",
+                "Relationship Support"
+            ],
+            "flow_type": "user_needs_to_solution"
+        },
+        "Information Retrieval": {
+            "scenarios": [
+                "Daily News Inquiries",
+                "Travel Guides",
+                "Product Information Lookup",
+                "Historical Data Retrieval",
+                "Academic Paper Searches",
+                "Technology News Searches",
+                "Health Information Queries",
+                "Legal Consultation Lookup",
+                "Weather Forecasts",
+                "Social Survey Reports"
+            ],
+            "flow_type": "time_series_analysis"
+        },
+        "Transactional Interaction": {
+            "scenarios": [
+                "Shopping Assistant",
+                "Ticket Booking",
+                "Service Reservations",
+                "Price Comparison Searches",
+                "Financial Consultation",
+                "Restaurant Reservations",
+                "Hotel Bookings",
+                "Product Returns and Exchanges",
+                "Coupon Usage",
+                "User Support"
+            ],
+            "flow_type": "problem_diagnosis_to_solution"
+        }
+    },
+    "flow_definitions": {
+        "problem_diagnosis_to_solution": {
+            "steps": [
+                "Identifying the problem",
+                "Analyzing the cause",
+                "Proposing a solution",
+                "Feedback and improvement"
+            ]
+        },
+        "theory_to_scene": {
+            "steps": [
+                "Theoretical concept",
+                "Principle guidance",
+                "Specific response",
+                "Detail optimization"
+            ]
+        },
+        "user_needs_to_solution": {
+            "steps": [
+                "Understanding needs",
+                "Analyzing needs",
+                "Proposing a solution",
+                "Implementation and feedback"
+            ]
+        },
+        "concept_to_cross_domain": {
+            "steps": [
+                "Exploring a single domain",
+                "Connecting adjacent domains horizontally",
+                "Comprehensive impact analysis"
+            ]
+        },
+        "single_to_multiple_views": {
+            "steps": [
+                "Single perspective discussion",
+                "Introduction of opposing perspectives",
+                "Comprehensive trade-off",
+                "Drawing conclusions"
+            ]
+        },
+        "time_series_analysis": {
+            "steps": [
+                "Phenomenon description",
+                "Historical review",
+                "Current state",
+                "Future projection"
+            ]
+        }
+    }
+}

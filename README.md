@@ -1,6 +1,4 @@
-# ConsistentChat
-
-[Building Skeleton-Guided Consistent Multi-Turn Dialogues for Large Language Models from Scratch](https://arxiv.org/abs/2506.03558) (EMNLP 2025)
+# ConsistentChat: Building Skeleton-Guided Consistent Multi-Turn Dialogues for Large Language Models from Scratch
 
 <div align="center"><img src="https://img.shields.io/badge/Data%20License-MIT-blue" alt="">
   <img src="https://img.shields.io/badge/Code%20License-MIT-green" alt="">
@@ -16,6 +14,14 @@
 • <a href="https://huggingface.co/datasets/jiawei-ucas/ConsistentChat">
   <strong>🤗 Dataset</strong>
 </a></div>
+
+
+## 📅 News
+
+- [2025/09]: 🔥 We have released code, dataset and model checkpoint publicly to encourage future research!
+- [2025/08]: 🎉 Paper accepted to **EMNLP 2025**! 
+
+
 
 
 --------------------------------------------------------------------------------

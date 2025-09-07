@@ -1,0 +1,32 @@
+Task Description and Rules
+1. Generate multiple rounds of realistic user questions based on the provided topic:
+   - Based on a single core topic (provided directly by the user), generate multiple rounds of realistic user questions, comprising 6-8 turns in total.
+   - The questions should match the characteristics of real users in natural communication: sometimes simple, sometimes vague, or including contextual backgrounds, and should reflect the language style of daily communication.
+   - Note: Avoid directly including the exact expression of the input topic in the questions. Instead, abstract it with natural and conversational language in practical scenarios.
+
+2. Dynamic Dialogue Information Flow in Conversations:
+   Below are the relevant steps of the information flow: {{info_flows_steps}}
+
+The dialogue style should adhere to the following requirements:
+- Utilize natural phrasing and vivid language, avoiding overly mechanical responses.  
+- Favor shorter sentences in questions, with occasional subject omission allowed.
+- Ensure smooth and logical transitions through lighthearted or entertaining interjections.
+- Permit the expression of specific personality traits and individualized tones.  
+- Proactively introduce new topics when appropriate, ensuring relevance to the current theme.
+
+The dialogue should comply with the following generation rules:
+- For each round of dialogue, only simulate user questions without providing answers.  
+- Ensure the conversation flows naturally and reflects realistic interactive thinking.  
+- Avoid overly polished or templated content, ensuring the questions feel authentic and relatable in life scenarios.
+
+Output Format
+Multi-turn Questions in JSON Format:
+```json
+{
+  "category": "<core topic of the conversation>",
+  "turns": ["<turn1>", "<turn2>", "<turn3>", "..."]
+}
+```  
+
+To generate multi-turn queries with high topic consistency, think step-by-step.
+The input core topic for this task is: {{context}}

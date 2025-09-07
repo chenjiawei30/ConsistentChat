@@ -1,0 +1,16 @@
+include README.md
+include LICENSE
+include requirements.txt
+include config_example.py
+recursive-include data *.json
+recursive-include prompt *.txt
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store
+global-exclude *.log
+global-exclude generated_*.json
+global-exclude test_*.json
+
+
+
+
