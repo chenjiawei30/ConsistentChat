@@ -231,6 +231,7 @@ GENERATION_CONFIG = {
     "temperature_response": 0.7,
     "max_retries": 3,
     "retry_delay": 1
+}
 ```
 
 ### Adding New Categories
